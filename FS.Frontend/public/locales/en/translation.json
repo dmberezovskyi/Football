@@ -1,0 +1,74 @@
+{
+    "labels": {
+        "signUp": "Sign Up",
+        "signIn": "Sign In",
+        "forgotPassword": "Forgot password?",
+        "dontHaveAccount": "Don’t have an account?",
+        "registerAccountAgreement": "By register, I agree to",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "alreadyHaveAnAccount": "Already have an account?",
+        "and": "and",
+        "adminSettings": "Administration",
+        "rememberMe": "Remember me",
+        "getStarted": "Get started",
+        "russianLangSelect": "Russian",
+        "englishLangSelect": "English",
+        "ukrainianLangSelect": "Ukrainian",
+        "oops": "Oops! Something went wrong",
+        "plublicProfile": "Public Profile",
+        "saveChanges": "Save Changes",
+        "updateSuccess": "Update success",
+        "maxFileSizeOf": "Max file size of",
+        "allowed": "Allowed",
+        "uploadPhoto": "Upload photo",
+        "updatePhoto": "Update photo",
+        "settings": "Settings",
+        "themeMode": "Mode",
+        "contentDirection": "Direction",
+        "logout": "Logout",
+        "accountTabs": {
+            "general": "General",
+            "changePassword": "Change password"
+        },
+        "headerDashboard": {
+            "accountHeading": "Account",
+            "dashboard":  "Dashboard",
+            "accountSettings": "Account Settings"
+        },
+        "oldPassword": "Old password",
+        "newPassword": "New Password",
+        "confirmNewPassword": "Confirm new password",
+        "roles": {
+            "admin": "Administrator",
+            "player": "Player",
+            "trainer": "Trainer"
+        }
+    },
+    "placeholders": {
+        "email": "Email address",
+        "password": "Password",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "middleName": "Middle name",
+        "birthDate": "Birth date",
+        "role": "Role",
+        "phone": "Phone number",
+        "about": "About",
+        "country": "Country",
+        "state": "State",
+        "city": "City",
+        "zipCode": "Zip code",
+        "street": "Street"
+    },
+    "validation": {
+        "required": "{{field}} required",
+        "invalidEmail": "Please, enter a valid email address",
+        "maxLength": "Maximum length is {{maxLength}}",
+        "fileTypeMustBe": "File type must be",
+        "fileIsLargerThan": "File is larger than"
+    },
+    "titles": {
+        "registration": "Registration"
+    }
+}

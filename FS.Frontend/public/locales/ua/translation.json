@@ -1,0 +1,51 @@
+
+{
+    "labels": {
+        "signUp": "Регистрация",
+        "signIn": "Вход",
+        "forgotPassword": "Забыли пароль?",
+        "dontHaveAccount": "Все еще нету аккаунта?",
+        "registerAccountAgreement": "Регистрируясь Вы подтверждаете, что Вы согласны с",
+        "termsOfService": "Условиями обслуживания",
+        "privacyPolicy": "Политикой конфиденциальности",
+        "alreadyHaveAnAccount": "Уже есть аккаунт?",
+        "player": "Игрок",
+        "trainer": "Тренер",
+        "and": "и",
+        "rememberMe": "Запомнить меня",
+        "getStarted": "Регистрируйся",
+        "russianLangSelect": "Русский",
+        "englishLangSelect": "Английский",
+        "ukrainianLangSelect": "Украинский",
+        "oops": "Упс! Что-то пошло не так",
+        "plublicProfile": "Публичный профиль",
+        "saveChanges": "Сохранить",
+        "updateSuccess": "Успешно обновлено",
+        "allowed": "Разрешены",
+        "maxFileSizeOf": "Максимальный размер файла",
+        "accountTabs": {
+            "general": "Главная",
+            "changePassword": "Изменение пароля"
+        }
+    },
+    "placeholders": {
+        "email": "Электронная почта",
+        "password": "Пароль",
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "birthDate": "День рождения",
+        "role": "Роль",
+        "phone": "Номер телефона",
+        "about": "Обо мне"
+    },
+    "validation": {
+        "required": "Обязательное поле",
+        "invalidEmail": "Введите правильный адрес эл. почты",
+        "minMaxSymbols": "Ваше значение должно содержать от {{min}} до {{max}} символов.",
+        "fileTypeMustBe": "Тип файла должен быть",
+        "fileIsLargerThan": "Файл больше чем"
+    },
+    "titles": {
+        "registration": "Регистрация"
+    }
+}

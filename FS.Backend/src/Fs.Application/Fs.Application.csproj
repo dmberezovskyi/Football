@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Services\Auth\web.jwk" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Services\Auth\web.jwk" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.78" />
+		<PackageReference Include="FluentValidation" Version="10.0.2" />
+		<PackageReference Include="IdentityServer4" Version="4.1.2" />
+		<PackageReference Include="MediatR" Version="9.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.0.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Fs.Infrastructure.ReadStorage\Fs.Infrastructure.ReadStorage.csproj" />
+		<ProjectReference Include="..\Fs.Infrastructure\Fs.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
